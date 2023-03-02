@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "tinyinvasion.data.unityweb",
+"asmCodeUrl": "tinyinvasion.asm.code.unityweb",
+"asmMemoryUrl": "tinyinvasion.asm.memory.unityweb",
+"asmFrameworkUrl": "tinyinvasion.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
