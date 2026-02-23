@@ -1,0 +1,105 @@
+{
+  "description": "Software engineer focused on C#/.NET, TypeScript, React, and practical automation.",
+  "githubUsername": "jdbhartley",
+  "avatarUrl": "",
+  "displayName": "James Hartley",
+  "email": "jdbhartley@gmail.com",
+  "website": "https://jameshartley.dev",
+  "linkedin": "https://linkedin.com/in/jdbhartley",
+  "location": "Lake Elsinore, CA",
+  "headline": "Software Engineer · C# / .NET / TypeScript / Unity",
+  "summary": "I build reliable software systems, internal tools, and product features that solve real operational problems. I care about maintainability, clear UX, and shipping with intention.",
+  "projects": {
+    "blacklist": [
+      "portfolio",
+      "portfolio_nuro"
+    ],
+    "heroNames": [
+      "ebay-manager",
+      "gmail-manager"
+    ]
+  },
+  "resume": {
+    "skills": [
+      "C#",
+      ".NET",
+      "TypeScript",
+      "React",
+      "PostgreSQL",
+      "Unity",
+      "REST APIs",
+      "Git"
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "YAPI Inc.",
+        "years": "2021 - 2026",
+        "points": [
+          "Primary maintainer on legacy C# systems and feature delivery.",
+          "Built backend services using C#/.NET and PostgreSQL.",
+          "Delivered frontend capabilities using React + TypeScript."
+        ]
+      },
+      {
+        "role": "Technical Support Lead",
+        "company": "YAPI Inc.",
+        "years": "2019 - 2026",
+        "points": [
+          "Led and mentored a 7-person support team.",
+          "Built internal tooling to reduce incident resolution time and improve consistency."
+        ]
+      },
+      {
+        "role": "Freelance Technical Consultant",
+        "company": "Self-Employed",
+        "years": "2017 - 2019",
+        "points": [
+          "Provided technical consulting, troubleshooting, and system setup support.",
+          "Delivered precision electronics and hardware/software solutions for clients."
+        ]
+      },
+      {
+        "role": "Field Technician",
+        "company": "Miatech Inc.",
+        "years": "2014 - 2017",
+        "points": [
+          "Installed and maintained reverse osmosis and air purification systems.",
+          "Worked independently across Southern California service locations."
+        ]
+      }
+    ],
+    "education": [
+      "BS, Simulations Programming — The Art Institute (2009–2013)",
+      "C++ Programming State Certificate — Riverside City College",
+      "Android Development Nanodegree — Google + Udacity"
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2026",
+      "title": "Software Developer · YAPI",
+      "description": "Owned and modernized core C# workflows while shipping full-stack features in .NET, PostgreSQL, and TypeScript/React."
+    },
+    {
+      "date": "2022",
+      "title": "Promoted to Technical Support Lead",
+      "description": "Led support operations and built tooling to increase throughput and improve customer issue resolution consistency."
+    },
+    {
+      "date": "2019",
+      "title": "Joined YAPI",
+      "description": "Started as Technical Support Specialist and grew into engineering-focused work through operational ownership and automation initiatives."
+    },
+    {
+      "date": "2017",
+      "title": "Freelance Technical Consultant",
+      "description": "Delivered freelance technical and hardware consulting across varied client environments."
+    },
+    {
+      "date": "2014",
+      "title": "Field Technician · Miatech",
+      "description": "Installed and maintained water/air purification systems throughout Southern California."
+    }
+  ]
+}
