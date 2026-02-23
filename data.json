@@ -80,7 +80,7 @@
     ],
     "education": [
       "BS, Simulations Programming — The Art Institute (2009–2013)",
-      "C++ Programming State Certificate — Riverside City College",
+      "C++ Programming State Certificate — Riverside City College (2020)",
       "Android Development Nanodegree — Google + Udacity"
     ]
   },
@@ -94,6 +94,11 @@
       "date": "2022",
       "title": "Promoted to Technical Support Lead",
       "description": "Led support operations and built tooling to increase throughput and improve customer issue resolution consistency."
+    },
+    {
+      "date": "2020",
+      "title": "C++ Programming State Certificate · Riverside City College",
+      "description": "Completed coursework and earned C++ Programming State Certificate."
     },
     {
       "date": "2019",
@@ -119,11 +124,6 @@
       "date": "2013",
       "title": "BS Simulations Programming · The Art Institute",
       "description": "Completed Bachelor's degree in Simulations Programming."
-    },
-    {
-      "date": "2012",
-      "title": "C++ Programming State Certificate · Riverside City College",
-      "description": "Completed coursework and earned C++ Programming State Certificate."
     }
   ]
 }
