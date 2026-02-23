@@ -8,12 +8,17 @@ const HOURS_1 = 60 * 60;
 const HOURS_12 = 60 * 60 * 12;
 const HOURS_24 = 60 * 60 * 24;
 
+const githubHeaders = () =>
+    process.env.GH_TOKEN
+        ? { Authorization: `Bearer ${process.env.GH_TOKEN}` }
+        : {};
+
 // TODO: Implement option to switch between info for authenticated user and other users.
 export const getUser = unstable_cache(async (username) => {
     console.log('Fetching user data for', username);
     console.time('getUser');
     const res = await fetch('https://api.github.com/users/' + username, {
-        headers: { Authorization: `Bearer ${process.env.GH_TOKEN}` },
+        headers: githubHeaders(),
     });
     console.timeEnd('getUser');
     return res.json();
@@ -23,7 +28,7 @@ export const getRepos = unstable_cache(async (username) => {
     console.log('Fetching repos for', username);
     console.time('getRepos');
     const res = await fetch('https://api.github.com/users/' + username + '/repos?per_page=100', {
-        headers: { Authorization: `Bearer ${process.env.GH_TOKEN}` },
+        headers: githubHeaders(),
     });
     console.timeEnd('getRepos');
     if (!res.ok) {
@@ -38,7 +43,7 @@ export const getRepos = unstable_cache(async (username) => {
         let nextLink = res.headers.get('link').split(',').find((link) => link.includes('rel="next"'));
         while (nextLink) {
             const nextRes = await fetch('https://api.github.com/users/' + username + '/repos?per_page=100&page=' + page, {
-                headers: { Authorization: `Bearer ${process.env.GH_TOKEN}` },
+                headers: githubHeaders(),
             });
             const nextResponse = await nextRes.json();
             response.push(...nextResponse);
