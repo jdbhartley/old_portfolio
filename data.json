@@ -67,6 +67,15 @@
           "Installed and maintained reverse osmosis and air purification systems.",
           "Worked independently across Southern California service locations."
         ]
+      },
+      {
+        "role": "Business Systems Analyst",
+        "company": "Nike (Converse Warehouse)",
+        "years": "2013",
+        "points": [
+          "Supported business systems workflows and process execution in a fast-paced warehouse environment.",
+          "Bridged operations and technical problem solving to improve day-to-day throughput."
+        ]
       }
     ],
     "education": [
@@ -100,6 +109,21 @@
       "date": "2014",
       "title": "Field Technician · Miatech",
       "description": "Installed and maintained water/air purification systems throughout Southern California."
+    },
+    {
+      "date": "2013",
+      "title": "Business Systems Analyst · Nike (Converse Warehouse)",
+      "description": "Supported operational systems and process execution in a high-volume warehouse setting."
+    },
+    {
+      "date": "2013",
+      "title": "BS Simulations Programming · The Art Institute",
+      "description": "Completed Bachelor's degree in Simulations Programming."
+    },
+    {
+      "date": "2012",
+      "title": "C++ Programming State Certificate · Riverside City College",
+      "description": "Completed coursework and earned C++ Programming State Certificate."
     }
   ]
 }
